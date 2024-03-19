@@ -2,7 +2,6 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 
 
-# точка входа в программу
 def main():
     test_work()
 
@@ -51,5 +50,6 @@ def get_data(filepath):
     return df
 
 
+# точка входа в программу
 if __name__ == '__main__':
     main()
